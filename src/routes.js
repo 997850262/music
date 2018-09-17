@@ -4,7 +4,7 @@ import SearchMusic from './Container/SearchMusic';
 import UploadMusic from './Container/UploadMusic';
 
 const routeConfig = {
-  path: '/',
+  path: './',
   component: AppWrapper,
   indexRoute: { component: Music },
   childRoutes: [
