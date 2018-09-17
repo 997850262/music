@@ -1,0 +1,77 @@
+.Footer-all{
+    /* display: flex;
+    width: 100%;
+    height: 50px;
+    background: rgb(231, 221, 221);
+    /* justify-content:space-around; */
+    /* position: fixed;
+    bottom: 0; */ 
+    background: rgb(240, 237, 237);
+    height: 80px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    opacity: 1;
+}
+.Footer-1{
+    position: relative;
+    float: left;
+    font-size: 18px;
+    margin-left: 15px; 
+    padding-top: 10px;
+}
+.Footer-2{
+    position: relative;
+    float: left;
+    font-size: 18px;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+.Footer-3{
+    position: relative;
+    float: left;
+    font-size: 18px;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+.Footer-4{
+    position: relative;
+    float: left;
+    font-size: 18px;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+.Footer-5{
+    position: relative;
+    float: left;
+    font-size: 18px;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+.Footer-img{
+    width: 30px;
+    height: 30px;
+    margin-left: 3px;
+}
+.Footer-img2{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.Footer-img3{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+.Footer-img4{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+.Footer-img5{
+    width: 30px;
+    height: 30px;
+    margin-left: 3px;
+}

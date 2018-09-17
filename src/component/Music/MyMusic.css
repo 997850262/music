@@ -1,0 +1,65 @@
+.MUSIC-all{
+    height: 80%;
+    overflow: auto;
+}
+.MyMusic-all{
+    padding-top: 10px;
+}
+.MyMusic-title{
+    text-indent:10px;
+    font-size: 22px;
+    font-weight: 550;
+}
+.MyMusic-list{
+    /* padding-left: 30px; */
+}
+.MyMusic-Subtitle{
+    float: right;
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 10px;
+}
+.MyMusic-list-all{
+    text-indent:30px;
+    margin-top: 10px;
+    width: 100%;
+    border-bottom:1px solid #ccc;
+}
+.moreselect{
+    width: 20px;
+    height: 20px;
+    border-radius:10px;
+    background: white;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.list-all{
+    display: flex;
+    position: relative;
+}
+.singleselect{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+.number{
+    padding-left: 5px;
+}
+.RecommendMusic-all{
+    margin-top: 20px;
+    padding-bottom: 80px;
+}
+.RecommendMusic-title{
+    text-indent:10px;
+    font-size: 22px;
+    font-weight: 550;
+}
+.RecommendMusic-list{
+    /* padding-left: 30px; */
+}
+.RecommendMusic-list-all{
+    text-indent:30px;
+    margin-top: 10px;
+    width: 100%;
+    border-bottom:1px solid #ccc;
+}

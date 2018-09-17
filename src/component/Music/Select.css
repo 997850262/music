@@ -1,0 +1,98 @@
+.Select-all{
+    display: flex;
+    margin-top:10px;
+    height: 30px;
+}
+.Select-1-true{
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius:10px;
+    background: white;
+    border: 1px solid black;
+    -webkit-animation: selectone-true 0.3s 1 ease;
+    animation-fill-mode:forwards
+}
+.Select-1-false{
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius:10px;
+    background: white;
+    border: 1px solid black;
+    -webkit-animation: selectone-false 0.3s 1 ease;
+    animation-fill-mode:forwards
+}
+@-webkit-keyframes selectone-true{
+	from {
+        width: 20px;
+        height: 20px;
+        border-radius:10px;
+	}
+	to {
+        width: 24px;
+        height: 24px;
+        border-radius:12px;
+	}
+}
+@-webkit-keyframes selectone-false{
+	from {
+        width: 24px;
+        height: 24px;
+        border-radius:12px;
+	}
+	to {
+        width: 20px;
+        height: 20px;
+        border-radius:10px;
+	}
+}
+
+.Select-2-false{
+    margin-left: 30px;
+    width: 20px;
+    height: 20px;
+    border-radius:10px;
+    background: white;
+    border: 1px solid black;
+    -webkit-animation: selectmore-false 0.3s 1 ease;
+    animation-fill-mode:forwards
+}
+.Select-2-true{
+    margin-left: 30px;
+    width: 20px;
+    height: 20px;
+    border-radius:10px;
+    background: white;
+    border: 1px solid black;
+    -webkit-animation: selectmore-true 0.3s 1 ease;
+    animation-fill-mode:forwards
+}
+@-webkit-keyframes selectmore-true{
+	from {
+        width: 20px;
+        height: 20px;
+        border-radius:10px;
+	}
+	to {
+        width: 24px;
+        height: 24px;
+        border-radius:12px;
+	}
+}
+@-webkit-keyframes selectmore-false{
+	from {
+        width: 24px;
+        height: 24px;
+        border-radius:12px;
+	}
+	to {
+        width: 20px;
+        height: 20px;
+        border-radius:10px;
+	}
+}
+/* input[type="radio"] {
+    width: 18px;
+    height: 18px;
+  } */

@@ -1,0 +1,84 @@
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .6);
+    transition: opacity .3s ease-in;
+  }
+  .showMask {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+.delect-Body{
+    position: fixed;
+    width: 50%;
+    height: 150px;
+    left:90px;
+    top: 200px;
+    background:white;
+    z-index: 100;
+}
+.delect-title{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.delect-input{
+    margin-top: 10px;
+}
+.delect-btn{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 30px;
+}
+.delect-btn1{
+    width: 70px;
+    height: 30px;
+    padding-top: 5px;
+}
+.delect-btn2{
+    width: 70px;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius:30px;
+    background: red;
+}
+.rename-Body{
+    position: fixed;
+    width: 50%;
+    height: 150px;
+    left:90px;
+    top: 200px;
+    background:white;
+    z-index: 100;
+}
+.rename-title{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.rename-input{
+    margin-top: 10px;
+}
+.rename-btn{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 30px;
+}
+.rename-btn1{
+    width: 70px;
+    height: 30px;
+    padding-top: 5px;
+}
+.rename-btn2{
+    width: 70px;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius:30px;
+    background: red;
+}

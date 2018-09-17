@@ -1,0 +1,26 @@
+.Head-all{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.Head-back{
+    font-size: 25px;
+    width: 50px;
+    color: rgb(243, 32, 138);
+    margin-bottom: 20px;
+    display: flex;
+}
+.Head-img{
+    width: 25px;
+    height: 30px;
+}
+.Head-name{
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 600;
+}
+.Head-over{
+    font-size: 20px;
+    color: rgb(243, 32, 138);
+    margin-right: 10px;
+}

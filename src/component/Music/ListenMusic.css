@@ -1,0 +1,135 @@
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .6);
+    transition: opacity .3s ease-in;
+  }
+  .showMask {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .Body{
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    bottom:0;
+    background:white;
+    z-index: 100;
+  }
+  .playbtn{
+      width:25px ;
+      height:30px ;
+  }
+  .title{
+      text-align: center;
+      margin-top: 18px;
+  }
+  .close{
+      float: right;
+  }
+  .ListenMusic-time{
+    text-align: center;
+  }
+  .ListenMusic-play-all0{
+      margin-left: 15px;
+      display: flex;
+  }
+  .finish{
+    position: absolute;
+      width: 20px;
+      height: 30px;
+      right: 70px;
+  }
+  .slider-all{
+      width: 70%;
+      height: 5px;
+      background: rgb(223, 219, 219);
+      margin-top: 15px;
+      margin-left: 10px;
+  }
+  .slider-shelter-all{
+    position: relative;
+  }
+  .sliders{
+    position: absolute;
+      height: 4px;
+      background: red;
+  }
+  .slider{
+    position: relative;
+      height: 4px;
+      background: red;
+  }
+  .slider-shelter{
+    position: absolute;
+    height: 4px;
+    background: rgb(223, 219, 219);
+    z-index: 200
+  }
+  .slider-circle{
+      position: relative;
+      width: 24px;
+      height: 24px;
+      border-radius:12px;
+      background: white;
+      border: 1px solid black;
+      margin-left: -12px;
+      margin-top: -15px;
+  }
+  .part-Body{
+    position: fixed;
+    width: 100%;
+    height: 300px;
+    bottom:0;
+    background:white;
+    z-index: 100;
+  }
+  .part-close{
+      position: absolute;
+      bottom: 0;
+      height: 40px;
+      width: 100%;
+  }
+  .intercept{
+      display: flex;
+      justify-content:space-around;
+      margin-top: 20px;
+  }
+  .intercept-start{
+      width: 30px;
+      height: 30px;
+      border-radius:15px;
+      border: 1px solid black;
+  }
+  .intercept-descript{
+      position: relative;
+      margin-top: 10px;
+  }
+  .intercept-1{
+      display: flex;
+      flex-direction: column
+  }
+  .ListenMusic-play-all2{
+    margin-left: 15px;
+    margin-top: 20px;
+    display: flex;
+}
+.startsign{
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    margin-left: 35px;
+    margin-top: -25px;
+    z-index: -100
+}
+.endsign{
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    margin-left: 35px;
+    margin-top: -25px;
+    z-index: -100
+}
