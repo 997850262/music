@@ -1,14 +1,14 @@
 import { combineReducers } from 'redux';
 import ActionTypes from '../const/ActionTypes';
 
-
+/* eslint-disable */
 function music(state = {
   data: { token: 1, nick: '刘凯' }, // 个人数据
   entities: {
     data: {
       1: {
         e: 1,
-        list: [1]
+        list: [1,2,3]
       }
     },
     list:
@@ -18,11 +18,36 @@ function music(state = {
           bmt: 0,
           emt: 0,
           fmt: 'mp3',
-          name: '我的音乐.mp3',
-          m_url: 'https://www.xiami.com/play?ids=/song/playlist/id/1902782/object_name/default/object_id/0#loaded',
+          name: '我只在乎你.mp3',
+          m_url: 'http://xphoto.xiaoniangao.cn/236998?e=1538323205&token=jy6xdQVmeu6SMLhryyCIi1sRTNvJJpDNP8xAScCT:2EWpXvFGE38MIjChGLFi0NL9qVA=',
           med: 1,
           qid: 1,
-          singerL: '我的音乐.mp3',
+          singerL: '我只在乎你.mp3',
+          t: 1
+        },
+        2: {
+          id: 2,
+          bmt: 0,
+          emt: 0,
+          fmt: 'mp3',
+          plp:'1',
+          name: '女人花.mp3',
+          m_url: "http://xphoto.xiaoniangao.cn/318111?e=1538323205&token=jy6xdQVmeu6SMLhryyCIi1sRTNvJJpDNP8xAScCT:qURx7EPrTfD1WNQwuWTtZvjgZlQ=",
+          med: 1,
+          qid: 1,
+          singerL: '女人花.mp3',
+          t: 1
+        },
+        3: {
+          id: 3,
+          bmt: 0,
+          emt: 0,
+          fmt: 'mp3',
+          name: '老古董.mp3',
+          m_url: "http://cdn-xphoto2.xiaoniangao.cn/1113370587?OSSAccessKeyId=LTAIajMJyFuun0yZ&Expires=1538323205&Signature=e4tieoi%2F1zp9igeC0rONHNT3bjU%3D",
+          med: 1,
+          qid: 1,
+          singerL: '老古董.mp3',
           t: 1
         }
       }
@@ -35,11 +60,11 @@ function music(state = {
       bmt: 0,
       emt: 0,
       fmt: 'mp3',
-      name: '推荐音乐.mp3',
-      m_url: 'http://music.taihe.com/song/790142',
+      name: '因为爱情.mp3',
+      m_url: "http://xphoto.xiaoniangao.cn/276442?e=1538323205&token=jy6xdQVmeu6SMLhryyCIi1sRTNvJJpDNP8xAScCT:vUy3wu2fOJg7QR4ZLsiIK9J6VHU=",
       med: 1,
       qid: 1,
-      singerL: '推荐音乐.mp3',
+      singerL: '因为爱情.mp3',
       t: 1
     },
     12: {
@@ -47,11 +72,11 @@ function music(state = {
       bmt: 0,
       emt: 0,
       fmt: 'mp3',
-      name: '推荐音乐2.mp3',
-      m_url: 'http://music.taihe.com/song/790142',
+      name: '童话(纯音乐).mp3',
+      m_url: "http://xphoto.xiaoniangao.cn/5583520?e=1538323205&token=jy6xdQVmeu6SMLhryyCIi1sRTNvJJpDNP8xAScCT:elFsobgvBT4JioOqSXmi67Q0TZc=",
       med: 1,
       qid: 1,
-      singerL: '推荐音乐2.mp3',
+      singerL: '童话(纯音乐).mp3',
       t: 1
     }
   }, // 推荐音乐
