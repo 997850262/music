@@ -8,7 +8,7 @@ function music(state = {
     data: {
       1: {
         e: 1,
-        list: [1,2,3]
+        list: [1,2,3,4]
       }
     },
     list:
@@ -48,6 +48,18 @@ function music(state = {
           med: 1,
           qid: 1,
           singerL: '老古董.mp3',
+          t: 1
+        },
+        4: {
+          id: 4,
+          bmt: 0,
+          emt: 0,
+          fmt: 'mp3',
+          name: '我们不一样.mp3',
+          m_url: "http://cdn-xphoto2.xiaoniangao.cn/1109128136?OSSAccessKeyId=LTAIajMJyFuun0yZ&Expires=1538323205&Signature=FT1s5yK3d4DAYnr7XSj%2FGMhXqpw%3D",
+          med: 1,
+          qid: 1,
+          singerL: '我们不一样.mp3',
           t: 1
         }
       }
